@@ -1,0 +1,17 @@
+*{
+	margin: 0 auto
+}
+.container{
+	
+	font-family: Garamond;
+	margin-top: 15%;
+	background:url(../img/equipo1.jpg); 
+	background-size: cover
+}
+
+input{
+	width: 100%
+}
+#salida{
+	background: white
+}
