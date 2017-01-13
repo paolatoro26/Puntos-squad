@@ -1,17 +1,27 @@
 *{
-	margin: 0 auto
+	margin: 0 auto;
+
+}
+.fondo
+{
+	background: rgba(238,226,226,.6);
 }
 .container{
 	
-	font-family: Garamond;
+	font-family: Arial;
 	margin-top: 15%;
 	background:url(../img/equipo1.jpg); 
 	background-size: cover
 }
 
 input{
-	width: 100%
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+
 }
 #salida{
-	background: white
+	background: black;
+	color:white;
+	font-family: Impact;
 }

@@ -13,4 +13,9 @@
 		} else{
 			document.getElementById("salida").innerHTML="Pueden hacerlo mejor";
 		}
+		if(puntosSquad=="" || maxPuntos=="")
+		{
+			
+			alert("Ingrese datos por favor !")
+		}	document.getElementById("salida").innerHTML="Intentalo de nuevo";
 	}

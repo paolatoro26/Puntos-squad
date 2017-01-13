@@ -11,29 +11,34 @@
 <body>
 <section class="principal">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-3">
+		<div class="fondo">
+			<div class="row text-center">
+			<div class="col-md-10 col-md-offset-1">
 				<h1>Objetivo de Squad</h1>
 				<div class="row">
-					<div class="col-md-8">
+					<p class="instrucciones"><b>Instrucciones: <br>Puntos maximos:</b> Valor maximo deseado (100%).<br> <b>PuntosSquad : </b>Valor obtenido en tu squad</p> 
+					<div class="col-md-6">
+						<p >
+							<label for="">Puntos maximos</label>
+							<input id="maxPuntos" type="text">
+						</p>
+					</div>
+					<div class="col-md-6">
 						<p>
 							<label for="">Puntos Squad</label>
 							<input id="puntosSquad" type="text">
-						</p>
-					</div>
-					<div class="col-md-8">
-						<p>
-							<label for="">Puntos maximos</label>
-							<input id="maxPuntos" type="text">
+							
 						</p>
 					</div>
 				</div>
 				<p>
 					<button onclick="calcular()">Calcular</button>
 				</p>	
-				<h1 id="salida" type="text"></h1>
+				<h1 class="text-center" id="salida" type="text"></h1>
 			</div>
 		</div>
+		</div>
+		
 	</div>
 </section>
 <script src="js/main.js"></script>
